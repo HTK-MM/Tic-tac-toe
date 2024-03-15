@@ -1,1 +1,47 @@
+body {
+  
+    margin: 0;
+}
 
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    justify-content: center;
+
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(121, 117, 117);
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #cac8c8;
+}
+
+.divBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 40px;
+    width: 130px;
+    font-weight: 600;
+}
+
+.btn:hover{
+background-color: #75a7b9;
+color: white;
+font-weight: bold;
+}
